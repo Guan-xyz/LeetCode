@@ -10,7 +10,7 @@ def custom_sort_string(s, t):
             maps[i] += 1
     inside = ''
     for j in range(len(s)):
-        if s[j] in T:
+        if s[j] in t:
             inside += s[j] * maps[s[j]]
             maps[s[j]] = 0
     for k in maps:
